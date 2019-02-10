@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custtom_background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/ref"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:hint="Reference"/>
+
+        <EditText
+            android:id="@+id/des"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/ref"
+            android:textColor="@color/white"
+            android:hint="Designation"/>
+
+        <LinearLayout
+            android:id="@+id/relout1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/des"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/gallery"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:text="Gallery"
+                android:textColor="@color/black"
+                android:background="@color/white"/>
+            <Button
+                android:id="@+id/camera"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:text="Camera"
+                android:textColor="@color/black"
+                android:background="@color/white"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/preview"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/relout1"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/ajouter_pr"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/preview"
+            android:text="Add Product"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

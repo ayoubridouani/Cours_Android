@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Multi Activity</string>
+    <string name="btn_send">Send</string>
+    <string name="placeholder_msg">Enter Your Message : </string>
+</resources>

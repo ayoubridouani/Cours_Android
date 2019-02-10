@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TP14 Commande Produit</string>
+    <string name="title_activity_menu_product">MenuProduct</string>
+    <string name="title_activity_register">Register</string>
+    <string-array name="groupID">
+        <item>Admin</item>
+        <item>Client</item>
+    </string-array>
+</resources>

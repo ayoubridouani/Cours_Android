@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TP13 SQlite</string>
+    <string name="list">Lister Contact</string>
+    <string name="add">Ajouter Contact</string>
+    <string name="update">Update Contact</string>
+    <string name="del">Delete Contact</string>
+</resources>

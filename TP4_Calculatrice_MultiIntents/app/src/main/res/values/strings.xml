@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculatrice With Intents</string>
+    <string name="num1">Number 1</string>
+    <string name="num2">Number 2</string>
+</resources>

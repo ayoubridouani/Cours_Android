@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">personalize ListView</string>
+    <string name="ref">Reference de Produit</string>
+    <string name="des">Designation de Produit</string>
+    <string name="add">Ajouter</string>
+    <string name="del">Supprimer</string>
+</resources>

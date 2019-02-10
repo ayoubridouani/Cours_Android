@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464649">
+
+    <EditText
+        android:id="@+id/nbr1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="#d6f4f3ed"
+        android:hint="@string/num1"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nbr2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/nbr1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="#d6f4f3ed"
+        android:hint="@string/num2"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/oper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nbr2"
+        android:layout_marginTop="71dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/moins"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/fois"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="*"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="/"
+            android:textSize="24sp" />
+        
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/lance"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oper"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="105dp"
+        android:background="#2BB44B"
+        android:text="Calculer"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oper"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="112dp"
+        android:layout_marginRight="21dp"
+        android:hint="Resultat"
+        android:paddingLeft="5dp"
+        android:textSize="24sp" />
+
+</RelativeLayout>

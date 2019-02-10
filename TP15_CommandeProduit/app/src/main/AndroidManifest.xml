@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anonsurf.tp14commandeproduit">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:banner="@color/white"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:noHistory="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".authentication.Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".authentication.Signin"
+            android:label="Signin" />
+
+        <activity
+            android:name=".admin.ProductMenu"
+            android:label="Product Menu" />
+        <activity
+            android:name=".admin.AddProduct"
+            android:label="Add Product" />
+        <activity
+            android:name=".admin.ProductList"
+            android:label="Product List" />
+
+        <activity
+            android:name=".client.OrdersOptions"
+            android:label="Products Menu" />
+        <activity
+            android:name=".client.ListAllProducts"
+            android:label="All Products" />
+        <activity
+            android:name=".client.BasketOfProducts"
+            android:label="Your Orders" />
+
+    </application>
+
+</manifest>
